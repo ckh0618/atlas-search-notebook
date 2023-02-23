@@ -1,0 +1,6 @@
+import os 
+PROJECT_ID = os.environ["ATLAS_PROJECT_ID"]
+CLUSTER_NAME = os.environ["ATLAS_CLUSTER_NAME"]
+PRIVATE_KEY = os.environ["ATLAS_PRIVATE_KEY"]
+PUBLIC_KEY = os.environ["ATLAS_PUBLIC_KEY"]
+MONGODB_URI= os.environ["ATLAS_MONGODB_URI"]
